@@ -16,7 +16,7 @@ body {
 
     padding: 2vw;
 
-    border-radius: 5vh;
+    border-radius: 15px;
 
     display: grid;
     grid-template-columns: min-content 1fr;
