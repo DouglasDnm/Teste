@@ -6,7 +6,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #e5e5e5;
+    background-color: #be95c4;
 
     width: 80vw;
     height: 40vh;
@@ -244,11 +244,11 @@ body {
         display: flex;
         flex-direction: column;
 
-        width: 80vw;
+        width: 90vw;
     }
 
     .coluna-mes, .coluna-semana {
-        width: 80vw;
+        width: 90vw;
         padding: 6vw;
 
     }
@@ -266,7 +266,7 @@ body {
     }
 
     .atividades-alura {
-        width: 68vw;
+        width: 78vw;
         
         display: flex;
         flex-direction: column;
