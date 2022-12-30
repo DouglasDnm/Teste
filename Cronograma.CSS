@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap'); 
 
 body {
-    background-color: #c661ff;
+    background-color: #be95c4;
 
 }
 
 .cabecalho {
-    background-color: #be95c4;
+    background-color: #e5e5e5;
 
     width: 80vw;
     height: 40vh;
