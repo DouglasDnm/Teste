@@ -214,7 +214,7 @@ body {
     
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     body {
        display: flex;
        flex-direction: column;
@@ -227,15 +227,48 @@ body {
         border-radius: 25px;
         padding: 6vw;
 
-        height: 60vh;
+        width: 90vw;
+        height: auto;
     }
 
-    .ano-caixa {
-        width: 63vw;
+    .ano-caixa, .mes-caixa, .semana-caixa {
+        width: 73vw;
+        height: 23vh;
     }
 
-    .cabecalho-titulo, .cabecalho-subtitulo {
+    .cabecalho-titulo, .cabecalho-subtitulo, .semana, .atividade-titulo {
         text-align: center;
     }
 
+    .principal, .atividades-tech  {
+        display: flex;
+        flex-direction: column;
+
+        width: 90vw;
+    }
+
+    .coluna-mes, .coluna-semana {
+        width: 90vw;
+        padding: 6vw;
+
+    }
+
+    .coluna-semana, .atividades-alura {
+        row-gap: 2rem;
+    }
+
+    .atividades-caixa {
+        justify-self: center;
+    }
+    
+    .atividades-tech {
+        padding: 6vw;
+    }
+
+    .atividades-alura {
+        width: 78vw;
+        
+        display: flex;
+        flex-direction: column;
+    }
 }
