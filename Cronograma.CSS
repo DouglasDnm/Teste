@@ -213,3 +213,29 @@ body {
     font-size: 3rem;
     
 }
+
+@media screen and (max-width: 480px){
+    body {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 25px;
+        padding: 6vw;
+
+        height: 60vh;
+    }
+
+    .ano-caixa {
+        width: 63vw;
+    }
+
+    .cabecalho-titulo, .cabecalho-subtitulo {
+        text-align: center;
+    }
+
+}
