@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0">
+        <title>Cronograma | 2023</title>
+        <link rel="icon" type=".png" href="Imagens/planeta-terra.png">
+        <link rel="stylesheet" href="CSS/Reset.css">
+        <link rel="stylesheet" href="CSS/Cronograma.CSS">
+        <script src="JS/Cronograma.JS"></script>
+    </head>
+    <body>
+        <section class="cabecalho">
+                <div class="ano-caixa">
+                    <p class="ano1">20</p>
+                    <p class="ano2">23</p>
+                </div>
+                <h1 class="cabecalho-titulo">Cronograma de Atividades</h1>
+                <h2 class="cabecalho-subtitulo">Referente ao ano de 2023 | de Janeiro á Dezembro</h2>
+        </section>
+        <div class="principal">
+            <section class="coluna-mes">
+                <div class="mes-caixa">
+                    <p class="mes">Jan.</p>
+                </div>
+                <h2 class="coluna-titulo">Janeiro</h2>
+                <h3 class="coluna-descricao">Atividades referentes ao mês de Janeiro. 01/01/2023 até 31/01/2023</h3>
+            </section>
+            <section class="coluna-semana">
+                <div class="semana-caixa">
+                    <p class="semana">01/01/2023 á 07/01/2023.</p>
+                </div>
+                <h2 class="coluna-titulo">Semana 01</h2>
+                <h3 class="coluna-descricao">Atividades á serem realizadas durante a 1ª semana do Ano de 2023</h3>
+                <h3 class="coluna-descricao">De 01 de Janeiro até 07 de Janeiro</h3>
+            </section>
+            <section class="atividades-tech">
+                <div class="atividades-alura">
+                    <div class="atividades-caixa">
+                        <p class="alura" onclick="alura">Alura</p>
+                    </div>
+                    <h2 class="atividade-titulo">Alura - Front-End: HTML & CSS</h2>
+                    <div class="tabela">
+                        <table class="tabelaAluraFE">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1-03">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                </tr>
+                                <tr class="tabela-linha2-03">
+                                <td class="tabela-valores"><form name="tabelalinha01"><input type="text" class="tabela-input" id="valorAluraFE01" name="tabeladias01"></form><button type="submit" onclick="mediaAluraFE01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02"><input type="text" class="tabela-input" id="valorAluraFE02" name="tabeladias02"></form><button type="submit" onclick="mediaAluraFE02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03"><input type="text" class="tabela-input" id="valorAluraFE03" name="tabeladias03"></form><button type="submit" onclick="mediaAluraFE03()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1-03">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                            </section>
+                            <section class="tabela-linha2-03">
+                                <div class="tabela-exibir" id="valor-dia01"></div>
+                                <div class="tabela-exibir" id="valor-dia02"></div>
+                                <div class="tabela-exibir" id="valor-dia03"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraFEFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimir"></div>
+                </div>
+            </section>
+            <section class="atividades-tech">
+                <div class="atividades-alura">
+                    <div class="atividades-caixa">
+                        <p class="alura">Alura</p>
+                    </div>
+                    <h2 class="atividade-titulo">Alura - Programação: JavaScript</h2>
+                    <div class="tabela">
+                        <table class="tabelaAluraFE">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1-04">
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2-04">
+                                <td class="tabela-valores"><form name="tabelalinha04PJS"><input type="text" class="tabela-input" id="valorAluraPJS04" name="tabeladias04PJS"></form><button type="submit" onclick="mediaAluraPJS04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05PJS"><input type="text" class="tabela-input" id="valorAluraPJS05" name="tabeladias05PJS"></form><button type="submit" onclick="mediaAluraPJS05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06PJS"><input type="text" class="tabela-input" id="valorAluraPJS06" name="tabeladias06PJS"></form><button type="submit" onclick="mediaAluraPJS06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07PJS"><input type="text" class="tabela-input" id="valorAluraPJS07" name="tabeladias07PJS"></form><button type="submit" onclick="mediaAluraPJS07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1-04">
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2-04">
+                                <div class="tabela-exibir" id="valor-dia04PJS"></div>
+                                <div class="tabela-exibir" id="valor-dia05PJS"></div>
+                                <div class="tabela-exibir" id="valor-dia06PJS"></div>
+                                <div class="tabela-exibir" id="valor-dia07PJS"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraPJSFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirPJS"></div>
+                </div>
+            </section>
+            <section class="atividades-tech">
+                <div class="atividades-tecnologia">
+                    <div class="atividades-caixa">
+                        <p class="tecnologia">Tecnologia</p>
+                    </div>
+                    <h2 class="atividade-titulo">Páginas Web</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1-04">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                </tr>
+                                <tr class="tabela-linha2-04">
+                                <td class="tabela-valores"><form name="tabelalinha01TPW"><input type="text" class="tabela-input" id="valorAluraTPW01" name="tabeladias01TPW"></form><button type="submit" onclick="mediaAluraTPW01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02TPW"><input type="text" class="tabela-input" id="valorAluraTPW02" name="tabeladias02TPW"></form><button type="submit" onclick="mediaAluraTPW02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03TPW"><input type="text" class="tabela-input" id="valorAluraTPW03" name="tabeladias03TPW"></form><button type="submit" onclick="mediaAluraTPW03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04TPW"><input type="text" class="tabela-input" id="valorAluraTPW04" name="tabeladias04TPW"></form><button type="submit" onclick="mediaAluraTPW04()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1-04">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                            </section>
+                            <section class="tabela-linha2-04">
+                                <div class="tabela-exibir" id="valor-dia01TPW"></div>
+                                <div class="tabela-exibir" id="valor-dia02TPW"></div>
+                                <div class="tabela-exibir" id="valor-dia03TPW"></div>
+                                <div class="tabela-exibir" id="valor-dia04TPW"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraTPWFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirTPW"></div>
+                </div>
+            </section>
+            <section class="atividades-tech">
+                <div class="atividades-tecnologia">
+                    <div class="atividades-caixa">
+                        <p class="tecnologia">Tecnologia</p>
+                    </div>
+                    <h2 class="atividade-titulo">Tabelas: Audiência de TV</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1-03">
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2-03">
+                                <td class="tabela-valores"><form name="tabelalinha05TAT"><input type="text" class="tabela-input" id="valorAluraTAT05" name="tabeladias05TAT"></form><button type="submit" onclick="mediaAluraTAT05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06TAT"><input type="text" class="tabela-input" id="valorAluraTAT06" name="tabeladias06TAT"></form><button type="submit" onclick="mediaAluraTAT06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07TAT"><input type="text" class="tabela-input" id="valorAluraTAT07" name="tabeladias07TAT"></form><button type="submit" onclick="mediaAluraTAT07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1-03">
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2-03">
+                                <div class="tabela-exibir" id="valor-dia05TAT"></div>
+                                <div class="tabela-exibir" id="valor-dia06TAT"></div>
+                                <div class="tabela-exibir" id="valor-dia07TAT"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraTATFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirTAT"></div>
+                </div>
+            </section>
+            <section class="atividades-fisicas">
+                <div class="atividades-exercicio">
+                    <div class="atividades-caixa">
+                        <p class="fisicas">Atividades Fisícas</p>
+                    </div>
+                    <h2 class="atividade-titulo">Caminhada</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01AFC"><input type="text" class="tabela-input" id="valorAluraAFC01" name="tabeladias01AFC"></form><button type="submit" onclick="mediaAluraAFC01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02AFC"><input type="text" class="tabela-input" id="valorAluraAFC02" name="tabeladias02AFC"></form><button type="submit" onclick="mediaAluraAFC02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03AFC"><input type="text" class="tabela-input" id="valorAluraAFC03" name="tabeladias03AFC"></form><button type="submit" onclick="mediaAluraAFC03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04AFC"><input type="text" class="tabela-input" id="valorAluraAFC04" name="tabeladias04AFC"></form><button type="submit" onclick="mediaAluraAFC04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05AFC"><input type="text" class="tabela-input" id="valorAluraAFC05" name="tabeladias05AFC"></form><button type="submit" onclick="mediaAluraAFC05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06AFC"><input type="text" class="tabela-input" id="valorAluraAFC06" name="tabeladias06AFC"></form><button type="submit" onclick="mediaAluraAFC06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07AFC"><input type="text" class="tabela-input" id="valorAluraAFC07" name="tabeladias07AFC"></form><button type="submit" onclick="mediaAluraAFC07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia02AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia03AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia04AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia05AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia06AFC"></div>
+                                <div class="tabela-exibir" id="valor-dia07AFC"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraAFCFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirAFC"></div>
+                </div>
+            </section>
+            <section class="atividades-fisicas">
+                <div class="atividades-exercicio">
+                    <div class="atividades-caixa">
+                        <p class="fisicas">Atividades Fisícas</p>
+                    </div>
+                    <h2 class="atividade-titulo">Bicicleta</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01AFB"><input type="text" class="tabela-input" id="valorAluraAFB01" name="tabeladias01AFB"></form><button type="submit" onclick="mediaAluraAFB01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02AFB"><input type="text" class="tabela-input" id="valorAluraAFB02" name="tabeladias02AFB"></form><button type="submit" onclick="mediaAluraAFB02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03AFB"><input type="text" class="tabela-input" id="valorAluraAFB03" name="tabeladias03AFB"></form><button type="submit" onclick="mediaAluraAFB03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04AFB"><input type="text" class="tabela-input" id="valorAluraAFB04" name="tabeladias04AFB"></form><button type="submit" onclick="mediaAluraAFB04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05AFB"><input type="text" class="tabela-input" id="valorAluraAFB05" name="tabeladias05AFB"></form><button type="submit" onclick="mediaAluraAFB05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06AFB"><input type="text" class="tabela-input" id="valorAluraAFB06" name="tabeladias06AFB"></form><button type="submit" onclick="mediaAluraAFB06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07AFB"><input type="text" class="tabela-input" id="valorAluraAFB07" name="tabeladias07AFB"></form><button type="submit" onclick="mediaAluraAFB07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia02AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia03AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia04AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia05AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia06AFB"></div>
+                                <div class="tabela-exibir" id="valor-dia07AFB"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraAFBFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirAFB"></div>
+                </div>
+            </section>
+            <section class="atividades-fisicas">
+                <div class="atividades-exercicio">
+                    <div class="atividades-caixa">
+                        <p class="fisicas">Atividades Fisícas</p>
+                    </div>
+                    <h2 class="atividade-titulo">Exercícios Fisícos</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01AFE"><input type="text" class="tabela-input" id="valorAluraAFE01" name="tabeladias01AFE"></form><button type="submit" onclick="mediaAluraAFE01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02AFE"><input type="text" class="tabela-input" id="valorAluraAFE02" name="tabeladias02AFE"></form><button type="submit" onclick="mediaAluraAFE02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03AFE"><input type="text" class="tabela-input" id="valorAluraAFE03" name="tabeladias03AFE"></form><button type="submit" onclick="mediaAluraAFE03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04AFE"><input type="text" class="tabela-input" id="valorAluraAFE04" name="tabeladias04AFE"></form><button type="submit" onclick="mediaAluraAFE04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05AFE"><input type="text" class="tabela-input" id="valorAluraAFE05" name="tabeladias05AFE"></form><button type="submit" onclick="mediaAluraAFE05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06AFE"><input type="text" class="tabela-input" id="valorAluraAFE06" name="tabeladias06AFE"></form><button type="submit" onclick="mediaAluraAFE06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07AFE"><input type="text" class="tabela-input" id="valorAluraAFE07" name="tabeladias07AFE"></form><button type="submit" onclick="mediaAluraAFE07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia02AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia03AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia04AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia05AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia06AFE"></div>
+                                <div class="tabela-exibir" id="valor-dia07AFE"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraAFEFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirAFE"></div>
+                </div>
+            </section>
+            <section class="atividades-fisicas">
+                <div class="atividades-exercicio">
+                    <div class="atividades-caixa">
+                        <p class="fisicas">Atividades Fisícas</p>
+                    </div>
+                    <h2 class="atividade-titulo">Jardinagem</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ01" name="tabeladias01AFJ"></form><button type="submit" onclick="mediaAluraAFJ01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ02" name="tabeladias02AFJ"></form><button type="submit" onclick="mediaAluraAFJ02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ03" name="tabeladias03AFJ"></form><button type="submit" onclick="mediaAluraAFJ03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ04" name="tabeladias04AFJ"></form><button type="submit" onclick="mediaAluraAFJ04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ05" name="tabeladias05AFJ"></form><button type="submit" onclick="mediaAluraAFJ05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ06" name="tabeladias06AFJ"></form><button type="submit" onclick="mediaAluraAFJ06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07AFJ"><input type="text" class="tabela-input" id="valorAluraAFJ07" name="tabeladias07AFJ"></form><button type="submit" onclick="mediaAluraAFJ07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia02AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia03AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia04AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia05AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia06AFJ"></div>
+                                <div class="tabela-exibir" id="valor-dia07AFJ"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraAFJFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirAFJ"></div>
+                </div>
+            </section>
+            <section class="atividades-saude">
+                <div class="atividades-cuidado">
+                    <div class="atividades-caixa">
+                        <p class="saude">Saúde</p>
+                    </div>
+                    <h2 class="atividade-titulo">Exposição ao Sol</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01SAS"><input type="text" class="tabela-input" id="valorAluraSAS01" name="tabeladias01SAS"></form><button type="submit" onclick="mediaAluraSAS01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02SAS"><input type="text" class="tabela-input" id="valorAluraSAS02" name="tabeladias02SAS"></form><button type="submit" onclick="mediaAluraSAS02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03SAS"><input type="text" class="tabela-input" id="valorAluraSAS03" name="tabeladias03SAS"></form><button type="submit" onclick="mediaAluraSAS03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04SAS"><input type="text" class="tabela-input" id="valorAluraSAS04" name="tabeladias04SAS"></form><button type="submit" onclick="mediaAluraSAS04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05SAS"><input type="text" class="tabela-input" id="valorAluraSAS05" name="tabeladias05SAS"></form><button type="submit" onclick="mediaAluraSAS05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06SAS"><input type="text" class="tabela-input" id="valorAluraSAS06" name="tabeladias06SAS"></form><button type="submit" onclick="mediaAluraSAS06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07SAS"><input type="text" class="tabela-input" id="valorAluraSAS07" name="tabeladias07SAS"></form><button type="submit" onclick="mediaAluraSAS07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia02SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia03SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia04SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia05SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia06SAS"></div>
+                                <div class="tabela-exibir" id="valor-dia07SAS"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraSASFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirSAS"></div>
+                </div>
+            </section>
+            <section class="atividades-saude">
+                <div class="atividades-cuidado">
+                    <div class="atividades-caixa">
+                        <p class="saude">Saúde</p>
+                    </div>
+                    <h2 class="atividade-titulo">Alimentação</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01SAA"><input type="text" class="tabela-input" id="valorAluraSAA01" name="tabeladias01SAA"></form><button type="submit" onclick="mediaAluraSAA01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02SAA"><input type="text" class="tabela-input" id="valorAluraSAA02" name="tabeladias02SAA"></form><button type="submit" onclick="mediaAluraSAA02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03SAA"><input type="text" class="tabela-input" id="valorAluraSAA03" name="tabeladias03SAA"></form><button type="submit" onclick="mediaAluraSAA03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04SAA"><input type="text" class="tabela-input" id="valorAluraSAA04" name="tabeladias04SAA"></form><button type="submit" onclick="mediaAluraSAA04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05SAA"><input type="text" class="tabela-input" id="valorAluraSAA05" name="tabeladias05SAA"></form><button type="submit" onclick="mediaAluraSAA05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06SAA"><input type="text" class="tabela-input" id="valorAluraSAA06" name="tabeladias06SAA"></form><button type="submit" onclick="mediaAluraSAA06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07SAA"><input type="text" class="tabela-input" id="valorAluraSAA07" name="tabeladias07SAA"></form><button type="submit" onclick="mediaAluraSAA07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia02SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia03SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia04SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia05SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia06SAA"></div>
+                                <div class="tabela-exibir" id="valor-dia07SAA"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraSAAFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirSAA"></div>
+                </div>
+            </section>
+            <section class="atividades-estudos">
+                <div class="atividades-cuidado">
+                    <div class="atividades-caixa">
+                        <p class="estudos">Estudos</p>
+                    </div>
+                    <h2 class="atividade-titulo">Geografia</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01ESG"><input type="text" class="tabela-input" id="valorAluraESG01" name="tabeladias01ESG"></form><button type="submit" onclick="mediaAluraESG01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02ESG"><input type="text" class="tabela-input" id="valorAluraESG02" name="tabeladias02ESG"></form><button type="submit" onclick="mediaAluraESG02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03ESG"><input type="text" class="tabela-input" id="valorAluraESG03" name="tabeladias03ESG"></form><button type="submit" onclick="mediaAluraESG03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04ESG"><input type="text" class="tabela-input" id="valorAluraESG04" name="tabeladias04ESG"></form><button type="submit" onclick="mediaAluraESG04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05ESG"><input type="text" class="tabela-input" id="valorAluraESG05" name="tabeladias05ESG"></form><button type="submit" onclick="mediaAluraESG05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06ESG"><input type="text" class="tabela-input" id="valorAluraESG06" name="tabeladias06ESG"></form><button type="submit" onclick="mediaAluraESG06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07ESG"><input type="text" class="tabela-input" id="valorAluraESG07" name="tabeladias07ESG"></form><button type="submit" onclick="mediaAluraESG07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia02ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia03ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia04ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia05ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia06ESG"></div>
+                                <div class="tabela-exibir" id="valor-dia07ESG"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraESGFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirESG"></div>
+                </div>
+            </section>
+            <section class="atividades-estudos">
+                <div class="atividades-cuidado">
+                    <div class="atividades-caixa">
+                        <p class="estudos">Estudos</p>
+                    </div>
+                    <h2 class="atividade-titulo">Alemão</h2>
+                    <div class="tabela">
+                        <table class="tabelaTecnologia">
+                            <tbody class="tabelaCorpo">
+                                <tr class="tabela-linha1">
+                                <th class="tabela-dias">Dia 01</th>
+                                <th class="tabela-dias">Dia 02</th>
+                                <th class="tabela-dias">Dia 03</th>
+                                <th class="tabela-dias">Dia 04</th>
+                                <th class="tabela-dias">Dia 05</th>
+                                <th class="tabela-dias">Dia 06</th>
+                                <th class="tabela-dias">Dia 07</th>
+                                </tr>
+                                <tr class="tabela-linha2">
+                                <td class="tabela-valores"><form name="tabelalinha01ESA"><input type="text" class="tabela-input" id="valorAluraESA01" name="tabeladias01ESA"></form><button type="submit" onclick="mediaAluraESA01()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha02ESA"><input type="text" class="tabela-input" id="valorAluraESA02" name="tabeladias02ESA"></form><button type="submit" onclick="mediaAluraESA02()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha03ESA"><input type="text" class="tabela-input" id="valorAluraESA03" name="tabeladias03ESA"></form><button type="submit" onclick="mediaAluraESA03()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha04ESA"><input type="text" class="tabela-input" id="valorAluraESA04" name="tabeladias04ESA"></form><button type="submit" onclick="mediaAluraESA04()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha05ESA"><input type="text" class="tabela-input" id="valorAluraESA05" name="tabeladias05ESA"></form><button type="submit" onclick="mediaAluraESA05()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha06ESA"><input type="text" class="tabela-input" id="valorAluraESA06" name="tabeladias06ESA"></form><button type="submit" onclick="mediaAluraESA06()" class="botao-salvar">Salvar</button></td>
+                                <td class="tabela-valores"><form name="tabelalinha07ESA"><input type="text" class="tabela-input" id="valorAluraESA07" name="tabeladias07ESA"></form><button type="submit" onclick="mediaAluraESA07()" class="botao-salvar">Salvar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section class="tabelaCorpoResultado">
+                            <section class="tabela-linha1">
+                                <p class="tabela-dias">Dia 01</p>
+                                <p class="tabela-dias">Dia 02</p>
+                                <p class="tabela-dias">Dia 03</p>
+                                <p class="tabela-dias">Dia 04</p>
+                                <p class="tabela-dias">Dia 05</p>
+                                <p class="tabela-dias">Dia 06</p>
+                                <p class="tabela-dias">Dia 07</p>
+                            </section>
+                            <section class="tabela-linha2">
+                                <div class="tabela-exibir" id="valor-dia01ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia02ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia03ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia04ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia05ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia06ESA"></div>
+                                <div class="tabela-exibir" id="valor-dia07ESA"></div>
+                            </section>
+                        </section>
+                    </div>
+                    <button type="submit" onclick="mediaAluraESAFinal()" class="botao-media">Média</button>
+                    <div class="caixa-imprimir" id="imprimirESA"></div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

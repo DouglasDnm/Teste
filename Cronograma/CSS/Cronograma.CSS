@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap'); 
+
+
+body {
+    background-color: #c661ff;
+
+}
+
+.cabecalho {
+    background-color: #e5e5e5;
+
+    width: 80vw;
+    height: 40vh;
+
+    margin: 0 auto;
+    margin-top: 3.5vh;
+
+    padding: 2vw;
+
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+
+    column-gap: 25px;
+    row-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.ano-caixa {
+    background-color: #cdb4db;
+
+    grid-row: span 2;
+
+    align-self: center;
+
+    border-radius: 15px;
+
+    width: 13vw;
+    height: 33vh;
+
+    display: grid;
+    justify-items: center;
+
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.ano1, .ano2, .mes {
+    color: white;
+
+    font-family: 'Quicksand';
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+.ano1 {
+    align-self:flex-end;
+}
+
+.cabecalho-titulo, .coluna-titulo, .atividade-titulo {
+    font-family: 'Quicksand';
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.coluna-titulo, .coluna-descricao, .novidades-semanais {
+    text-align: center;
+}
+
+.cabecalho-titulo {
+    align-self: flex-end;
+}
+
+.cabecalho-subtitulo, .coluna-descricao, .novidades-semanais {
+    font-family: 'Quicksand';
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.principal {
+    display: grid;
+    grid-template-columns: 24vw 1fr;
+
+    width: 80vw;
+
+    margin: 0 auto;
+    column-gap: 2vw;
+
+    justify-items: center;
+}
+
+.coluna-mes {
+    background-color: #e5e5e5;
+
+    width: 24vw;
+
+    margin-top: 3.5vh;
+    padding: 2vw;
+    row-gap: 2rem;
+    columns: 1;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+.mes-caixa {
+    background-color: #cdb4db;
+
+    align-self: center;
+
+    border-radius: 15px;
+
+    width: 18vw;
+    height: 38vh;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.coluna-semana {
+    background-color: #e5e5e5;
+
+    width: 54vw;
+
+    margin-top: 3.5vh;
+    padding: 2vw;
+    row-gap: 2vw;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+
+    box-sizing: border-box;
+}
+
+.semana-caixa {
+        background-color: #cdb4db;
+    
+        align-self: center;
+    
+        border-radius: 15px;
+    
+        width: 50vw;
+        height: 38vh;
+    
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.semana {
+    color: white;
+
+    font-family: 'Quicksand';
+    font-weight: 100;
+    font-size: 3rem;
+
+    text-align: center;
+}
+
+.atividades-tech, .atividades-fisicas, .atividades-saude, .atividades-estudos {
+        background-color: #e5e5e5;
+    
+        width: 80vw;
+    
+        margin-top: 3.5vh;
+        padding: 2vw;
+        row-gap: 2vw;
+        grid-column: span 2;
+    
+        border-radius: 15px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        box-sizing: border-box;
+}
+
+.atividades-alura, .atividades-tecnologia, .atividades-exercicio, .atividades-cuidado, .atividades-ensino {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    align-items: center;
+    column-gap: 2vw;
+}
+
+.atividades-caixa {
+    background-color: #cdb4db;
+    
+        align-self: center;
+    
+        border-radius: 100%;
+    
+        width: 200px;
+        height: 200px;
+    
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.alura, .saude, .estudos {
+    color: white;
+
+    font-family: 'Quicksand';
+    font-weight: 100;
+    font-size: 3rem;
+    
+}
+
+.tecnologia {
+    color: white;
+
+    font-family: 'Quicksand';
+    font-weight: 100;
+    font-size: 2.3rem;
+}
+
+.fisicas {
+    color: white;
+
+    font-family: 'Quicksand';
+    font-weight: 100;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.tabela {
+    background-color: #cdb4db;
+
+    padding: 2vw;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    grid-column: span 2;
+
+    margin-top: 3.5vw;
+
+    width: 76vw;
+    height: auto;
+
+}
+
+.tabelaTecnologia, .tabelaAluraFE {
+    display: grid;
+}
+
+.tabelaCorpo {
+    display: grid;
+    row-gap: 1.2vw;
+}
+
+.tabelaCorpoResultado {
+    display: grid;
+    row-gap: 1.2vw;
+
+    margin-top: 3.5vw;
+}
+
+.tabela-linha1, .tabela-linha2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    align-items: center;
+    justify-items: center;
+
+    column-gap: 3vw;
+}
+
+.tabela-linha1-03, .tabela-linha2-03 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: center;
+    justify-items: center;
+
+    column-gap: 3vw;
+}
+
+.tabela-linha1-04, .tabela-linha2-04 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    align-items: center;
+    justify-items: center;
+
+    column-gap: 3vw;
+}
+
+.tabela-dias {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.tabela-valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela-input {
+    width: 5vw;
+    height: 5vW;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.botao-salvar {
+    background-color: white;
+
+    font-family: 'Quicksand';
+    font-size: 0.5rem;
+    font-weight: 600;
+
+    border-radius: 15px;
+
+    width: 6vw;
+    height: 3vh;
+
+    margin-top: 0.5vw;
+
+    transition: 600ms;
+}
+
+.botao-salvar:hover {
+    background-color: #c661ff;
+    color: white;
+}
+
+.botao-media {
+    background-color: #cdb4db;
+
+    font-family: 'Quicksand';
+    font-size: 2rem;
+    font-weight: 400;
+
+    border-radius: 5px;
+
+    width: 76vw;
+    height: 10vh;
+
+    margin-top: 1.5vw;
+
+    grid-column: span 2;
+
+    transition: 600ms;
+}
+
+.botao-media:hover {
+    background-color: #c661ff;
+    color: white;
+}
+
+.botao-limpar {
+    background-color: #cdb4db;
+
+    font-family: 'Quicksand';
+    font-size: 0.7rem;
+    font-weight: 600;
+
+    border-radius: 5px;
+
+    width: 76vw;
+    height: 3vh;
+
+    margin-top: 0.3vw;
+
+    grid-column: span 2;
+
+    transition: 600ms;
+}
+
+.botao-limpar:hover {
+    background-color: #c661ff;
+    color: white;
+}
+
+
+.tabela-exibir {
+    background-color: white;
+
+    width: 5vw;
+    height: 5vw;
+
+    border-radius: 15px;
+
+    display: grid;
+
+    text-align: center;
+    align-content: center;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+
+.caixa-imprimir{
+    grid-column: span 2;
+}
+
+.resultadoMedia {
+    background-color: #cdb4db;
+
+    font-family: 'Quicksand';
+    font-size: 2rem;
+    font-weight: 400;
+    
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    width: 76vw;
+    height: 10vh;
+
+    margin-top: 0.8vw;
+
+    grid-column: span 2;
+
+}
+
